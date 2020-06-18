@@ -1,0 +1,16 @@
+.banner{
+    background:url(../img/banner.jpg);
+    background-size: $bg-cover;
+    width: 625px;
+    height: 800px;
+    position: $ps-absolute;
+    top: 0;
+    right: 0;
+    z-index:-999;
+}
+@media (max-width:1200px){
+    .banner{
+        width: 400px;
+        height: 500px;
+    }
+}

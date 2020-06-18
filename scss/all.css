@@ -73,6 +73,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .header .logo {
@@ -87,7 +88,40 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 300px;
+  width: 500px;
   font-family: 'Roboto';
+}
+
+.header .menu li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 20px;
+  }
+  .header .menu {
+    width: 300px;
+  }
+}
+
+.banner {
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  width: 625px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -999;
+}
+
+@media (max-width: 1200px) {
+  .banner {
+    width: 400px;
+    height: 500px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
