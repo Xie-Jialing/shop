@@ -59,4 +59,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  padding: 24px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 300px;
+  font-family: 'Roboto';
+}
 /*# sourceMappingURL=all.css.map */
